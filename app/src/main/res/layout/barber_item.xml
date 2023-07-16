@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="110dp"
+    android:gravity="center"
+    android:layout_height="165dp"
+    android:layout_margin="8dp"
+    android:padding="15dp"
+    android:background="@drawable/service_item_background"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_background">
+    <ImageView
+        android:id="@+id/barberIconImageView"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:padding="1dp"
+        android:src="@drawable/m1" />
+    </FrameLayout>
+    <TextView
+        android:id="@+id/barberNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="Brian A"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:id="@+id/barberRateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20 $" />
+
+
+</LinearLayout>

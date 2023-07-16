@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="110dp"
+    android:layout_height="155dp"
+    android:layout_margin="8dp"
+    android:padding="15dp"
+    android:gravity="center"
+    android:background="@drawable/service_item_background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/serviceIconImageView"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:padding="5dp"
+        android:src="@drawable/fashion" />
+
+    <TextView
+        android:id="@+id/serviceTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="Shaving"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textColor="@color/white"
+android:textSize="15sp"
+        android:id="@+id/serviceRateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20 $" />
+
+</LinearLayout>

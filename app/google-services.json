@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1017153725967",
+    "project_id": "hairdresser-52d09",
+    "storage_bucket": "hairdresser-52d09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017153725967:android:17facc8977638bbc31257a",
+        "android_client_info": {
+          "package_name": "com.donik.pickaday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017153725967-jo1jrrho18ju6qpmuq7pmkb9tdljf5lt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK_vQLo_8hhuDkl_8Lauvn28GjV5oApQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017153725967-jo1jrrho18ju6qpmuq7pmkb9tdljf5lt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

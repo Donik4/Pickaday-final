@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/editbut"
+        android:src="@drawable/edit"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ImageView>
+    <ImageView
+        android:id="@+id/delbut"
+        android:src="@drawable/del"
+        app:layout_constraintTop_toBottomOf="@+id/editbut"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ImageView>
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking on "
+        android:textSize="18sp"
+        android:paddingStart="10dp"
+        app:layout_constraintStart_toEndOf="@+id/editbut"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:textSize="18sp"
+        android:paddingStart="5dp"
+        app:layout_constraintTop_toTopOf="@+id/tv1"
+        app:layout_constraintStart_toEndOf="@+id/tv1"
+        android:text="12/2/2023 22:11"
+        android:id="@+id/tv2"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:paddingStart="10dp"
+        android:text="with"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/tv1"
+        app:layout_constraintTop_toBottomOf="@+id/tv1"></TextView>
+
+    <TextView
+    android:textSize="18sp"
+    android:paddingStart="5dp"
+    app:layout_constraintTop_toTopOf="@+id/tv3"
+    app:layout_constraintStart_toEndOf="@+id/tv3"
+    android:textStyle="bold"
+    android:text="Andrew"
+    android:id="@+id/tvName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"></TextView>
+<TextView
+    app:layout_constraintTop_toTopOf="@+id/tvName"
+    app:layout_constraintStart_toEndOf="@+id/tvName"
+    android:textSize="18sp"
+    android:paddingStart="5dp"
+    android:text="For"
+    android:id="@+id/tv4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"></TextView>
+<TextView
+android:id="@+id/serv"
+    android:text="Haircut"
+    app:layout_constraintTop_toTopOf="@+id/tv4"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    android:paddingStart="5dp"
+    app:layout_constraintStart_toEndOf="@+id/tv4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:text="Message: "
+        android:textSize="18sp"
+        android:paddingStart="10dp"
+        app:layout_constraintStart_toStartOf="@+id/tv1"
+        app:layout_constraintTop_toBottomOf="@+id/tv3"
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:paddingStart="5dp"
+        android:text="Hi"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="@+id/tv5"
+        app:layout_constraintStart_toEndOf="@+id/tv5"
+        android:id="@+id/tvmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
